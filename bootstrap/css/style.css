@@ -1,0 +1,36 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #C0C0C0;
+}
+.wrapper{
+	background-color: white;
+	height: 300px;
+	width: 700px;
+	border: 1px solid #ADADAD;
+	margin: 0 auto;
+	margin-top: 60px;
+	border-radius: 3px;
+}
+.left
+{
+	float: left;
+	height: 298px;
+	width: 60%;
+	border-right: 1px solid #ADADAD;
+}
+.right
+{
+	height: 298px;
+	width: 40%;
+	float: left;
+}
+.fomu{
+	width: 220px !important;
+	margin: 0 auto;
+}
+.fomu-btn{
+	margin-left: 25px;
+	width: 220px;
+}
+

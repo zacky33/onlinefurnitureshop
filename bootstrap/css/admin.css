@@ -1,0 +1,100 @@
+body
+{
+	background-color: #C2C4B9;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.wrapper
+{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.top{
+	height: 42px;
+	background-color: #3B666C;
+	width: 100%;
+	color: white;
+	font-size: 18px;
+	padding-top: 7px;
+	padding-left: 15px;
+}
+.left{
+	background-color: white;
+	border: 1px solid #DADADA;
+	height: 400px;
+	width: 200px;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	color: black;
+}
+.right{
+	background-color: white;
+	min-height: 400px;
+	max-height: auto;
+	border: 1px solid #DADADA;
+	width: 690px;
+	float: left;
+	margin-left: 10px;
+	padding: 10px 10px;
+}
+.table-one{
+	height: auto;
+	width: 100%;
+}
+.table-one, tr, td{
+	height: 40px;
+	padding-left: 25px;
+	border-bottom: 1px solid #ccc;
+}
+.table-one tr:hover{
+	background-color: #C2C4B9;
+	cursor: pointer;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.footer{
+	height: 30px;
+	margin-top: 15px;
+	background-color: white;
+	width: 100%;
+	float: left;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.box
+{
+	height: 200px;
+	width: 500px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 4px;
+}
+.lefttop{
+
+	width: 70%;
+	float: left;
+}
+.righttop
+{
+	float: left;
+	width: 30%;
+	font-size: 14px;
+	padding-top: 5px;
+}
+.righttop a
+{
+	color: red;
+}
+.total{
+	width: 100%;
+	color: blue;
+	padding-right: 10px;
+	font-size: 20px;
+	text-align: right;
+}
